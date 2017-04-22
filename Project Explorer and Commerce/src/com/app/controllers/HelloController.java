@@ -14,7 +14,7 @@ public class HelloController {
 	@RequestMapping(value="/hello") //mandatory
 	public String sayHello()
 	{
-		System.out.println("in say hello");
+		System.out.println("in   say hello");
 		return "welcome";//logical view name
 	}
 	
